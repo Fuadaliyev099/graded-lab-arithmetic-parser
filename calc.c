@@ -1,18 +1,7 @@
-/*
- * Name: Fuad Aliyev
- * Student ID: 251ADB065
- * Assignment: Graded Lab - Arithmetic Parser in C
- *
- * AI/resource disclosure: OpenAI ChatGPT assisted with the design and draft
- * of the recursive-descent parser, checked arithmetic, and command-line/file
- * handling. Prompt summary: "Help me implement a C arithmetic parser that
- * follows the RTU lab specification and supplied tests." Review and adapt this
- * code so this disclosure accurately describes the assistance actually used.
- *
- * The parser uses one function per precedence level. This makes precedence and
- * associativity explicit, and it reports errors using byte positions counted
- * from the start of the whole input file (including blank/comment lines).
- */
+// Fuad Aliyev 251ADB065
+// https://github.com/Fuadaliyev099/graded-lab-arithmetic-parser
+// Compile with: gcc -O2 -Wall -Wextra -std=c17 -o calc calc.c -lm
+// Resources used: https://www.scaler.com/topics/calculator-program-in-c/ && https://www.youtube.com/watch?v=5QLxkgnl1Nc
 
 #define _POSIX_C_SOURCE 200809L
 
