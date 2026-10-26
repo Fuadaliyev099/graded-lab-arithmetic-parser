@@ -36,7 +36,7 @@
 /* Update the student ID before submitting. These strings are used in output names. */
 #define STUDENT_FIRST_NAME "fuad"
 #define STUDENT_LAST_NAME  "aliyev"
-#define STUDENT_ID         "YOUR_STUDENT_ID"
+#define STUDENT_ID         "251ADB065"
 
 #define MAX_PARSE_DEPTH 256U
 
